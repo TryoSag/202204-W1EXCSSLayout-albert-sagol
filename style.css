@@ -7,4 +7,35 @@ body {
 .container {
   width: 90%;
   max-width: 1200px;
+  height: max-content;
+  flex-direction: column;
+}
+body * {
+  margin: 15px auto;
+}
+main * {
+  margin: auto 20px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+ul {
+  list-style: none;
+}
+
+header {
+  border: 1px solid black;
+}
+main {
+  border: 1px solid blue;
+}
+.main--pricipal {
+  border: 1px solid green;
+}
+.main--lateral {
+  border: 1px solid red;
+}
+footer {
+  border: 1px solid pink;
 }
